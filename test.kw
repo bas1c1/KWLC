@@ -1,8 +1,15 @@
-__main__
-	int32 test = 53
-	int32 a = 23
-	string hello_world = "Hello, world!"
-	print -> test
-	print -> hello_world
-	return
+__program__
+	namespace Program
+
+	fun void newfunc(string name) begin
+		print -> gfa name
+		return
+	end
+
+	__main__
+		string hello_world = "Hello, world!"
+		
+		newfunc(hello_world)
+		return
+	end
 end
