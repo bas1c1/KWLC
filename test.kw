@@ -1,0 +1,8 @@
+__main__
+	int32 test = 53
+	int32 a = 23
+	string hello_world = "Hello, world!"
+	print -> test
+	print -> hello_world
+	return
+end
